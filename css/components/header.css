@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85vw;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 50px;
+  line-height: 1.05;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+@media(max-width: 660px) {
+  header {
+    flex-direction: column;
+    align-items: start;
+    margin:15px;
+  }
+  header h1, header p {
+    margin:5px 0;
+  }
+}

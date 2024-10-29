@@ -1,0 +1,15 @@
+.btn-primary {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #670BFF;
+  border-radius: 50px;
+  color: white;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.btn-primary:hover {
+  background-color: #5209cc;
+}
